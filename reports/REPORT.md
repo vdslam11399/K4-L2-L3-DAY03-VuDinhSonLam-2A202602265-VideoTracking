@@ -2,8 +2,8 @@
 
 Chép file này thành `reports/REPORT.md` rồi điền. Giữ nguyên các tiêu đề.
 
-Họ tên / nhóm: `...`
-Ngày: `...`
+Họ tên / nhóm: VŨ ĐÌNH SƠN LÂM
+Ngày: 15/09/2026
 
 ---
 
@@ -11,10 +11,10 @@ Ngày: `...`
 
 | Mục | Giá trị |
 | --- | --- |
-| Công cụ | CVAT / khác: `...` |
-| Thời gian gán `clip_02` (warm-up) | `...` phút |
-| Thời gian gán `clip_01` | `...` phút |
-| Số track đã vẽ trong `clip_01` | `...` |
+| Công cụ | CVAT |
+| Thời gian gán `clip_02` (warm-up) | 36 phút |
+| Thời gian gán `clip_01` | 100 phút |
+| Số track đã vẽ trong `clip_01` | 8 |
 | Số keyframe trung bình mỗi track | `...` |
 
 Ba tình huống khó nhất khi gán clip này, và bạn xử lý thế nào:
@@ -109,14 +109,14 @@ Bạn sẽ sửa gì trong `GUIDELINE_MINI.md`, và đổi gì trong quy trình 
 
 ## 7. Tệp đã nộp
 
-- [ ] `annotations/clip_01/gt.txt`
-- [ ] `annotations/clip_02/gt.txt`
-- [ ] `evidence/pre-gold/clip_01/gt.txt` và `manifest.json`
-- [ ] `GUIDELINE_MINI.md` đã điền
+- [x] `annotations/clip_01/gt.txt`
+- [x] `annotations/clip_02/gt.txt`
+- [x] `evidence/pre-gold/clip_01/gt.txt` và `manifest.json`
+- [x] `GUIDELINE_MINI.md` đã điền
 - [ ] `outputs/eval_vs_gold.json`
-- [ ] `outputs/model_bytetrack_clip_01.txt`
-- [ ] `outputs/model_reid_clip_01.txt`
-- [ ] `outputs/model_run_config.json`
+- [x] `outputs/model_bytetrack_clip_01.txt`
+- [x] `outputs/model_reid_clip_01.txt`
+- [x] `outputs/model_run_config.json`
 - [ ] `outputs/eval_bytetrack_vs_gold.json`, `outputs/eval_reid_vs_gold.json`, `outputs/eval_reid_vs_me.json`
 - [ ] `reports/review_partner.md`
-- [ ] `reports/REPORT.md` (file này)
+- [x] `reports/REPORT.md` (file này)
